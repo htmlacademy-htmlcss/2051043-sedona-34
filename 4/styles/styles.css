@@ -25,6 +25,9 @@ body {
   line-height: 21px;
   color: #333333;
   background-color: #ffffff;
+}
+input, select, button {
+  font-family: inherit;
 
 }
 .button {
@@ -38,6 +41,21 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 
+}
+.product-favorite {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.product-favorite-active {
+  background-color: #7DB54F;
+  
+  
 }
 .button-reset {
   font-family: inherit;
@@ -159,8 +177,10 @@ body {
   font-size: 26px;
   line-height: 29px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #000000;
 }
+
 .inner-header-title {
   font-size: 32px;
   line-height: 35px;
@@ -184,7 +204,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -201,6 +221,7 @@ body {
   background-color: #ffffff;
 }
 .product-card {
+  
   background-color: #ffffff;
 }
 
@@ -239,7 +260,7 @@ body {
 }
 
 .pagination-current {
-  color: #ffffff;
-  background-color: #82B3D3;
+  color: #000000;
+  background-color: #F2F2F2;
 }
 
