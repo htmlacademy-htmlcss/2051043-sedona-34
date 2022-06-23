@@ -193,7 +193,12 @@ input, select, button {
 }
 /* Breadcrumbs */
 .breadcrumbs {
-  color: #000000;
+  color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 /* Link */
@@ -207,6 +212,7 @@ input, select, button {
   color: #ffffff;
   text-transform: uppercase;
 }
+
 
 /* Label */
 .control-label {
