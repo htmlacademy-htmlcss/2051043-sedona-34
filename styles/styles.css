@@ -111,6 +111,7 @@ input, select, button {
   text-align: left;
   color: #333333;
   background-color: #F2F2F2;
+  text-transform: uppercase;
  
 }
 .button-order {
@@ -251,7 +252,6 @@ input, select, button {
   line-height: 21px;
   font-weight: 400;
   color: #000000;
-  text-transform: uppercase;
 }
 .pagination {
   background-color: #ffffff;
