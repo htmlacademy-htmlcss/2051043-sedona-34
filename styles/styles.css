@@ -138,9 +138,10 @@ input, select, button {
   font-weight: 700;
   text-align: center;
   color: #000000;
-  background-color: #ffffff
+  background-color: #ffffff;
+  text-decoration: none;
 }
-.main-index {
+.intro {
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/background-welcome.jpg");
@@ -153,11 +154,8 @@ input, select, button {
   line-height: 21px;
   text-transform: uppercase;
 }
-.index-columns {
-  color: #000000;
-  background-color: #fbf7f4;
-  
-}
+
+
 .subscribe {
   color: #ffffff;
   background-image: url("../images/background-email.jpg");
@@ -199,7 +197,6 @@ input, select, button {
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 /* Link */
