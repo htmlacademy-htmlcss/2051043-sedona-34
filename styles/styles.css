@@ -16,11 +16,16 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+html {
+  height:100%;
+}
 
 
 
 body {
   font-family: "PT Sans", sans-serif;
+  display:flex;
+  flex-direction:column;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
@@ -132,6 +137,21 @@ input, select, button {
   color: #000000;
   background-color: #ffffff;
 }
+.navigation {
+display: flex;
+width: 1200px;
+margin: 0 auto;
+}
+.navigation-list {
+  width:390px;
+  padding: 0;
+  margin: 0 ;
+
+}
+.navigation-user {
+  width:300px;
+  margin-left:auto;
+}
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   line-height: 26px;
@@ -141,12 +161,33 @@ input, select, button {
   background-color: #ffffff;
   text-decoration: none;
 }
+.navigation-logo {
+  width:140px;
+  margin:70 30;
+}
 .intro {
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/background-welcome.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+.page-container {
+  width: 1200px;
+  margin:0 auto;
+}
+.logo {
+  display:block;
+  margin: 0 auto;
+}
+.advantages-list {
+  display:flex;
+  justify-content: space-between;
+  margin: 0;
+  padding:0;
+}
+.advantages-item {
+  width: 600px;
 }
 .advantages-title {
   font-family: "PT Sans", sans-serif;
@@ -179,6 +220,11 @@ input, select, button {
   text-decoration: none;
   color: #000000;
 }
+.page-footer-container {
+  display:flex;
+  width: 1200px;
+  margin:0 auto;
+}
 
 .inner-header-title {
   font-size: 32px;
@@ -189,6 +235,18 @@ input, select, button {
 .main-title {
   background-image: url("../images/filter.jpg");
   color:#ffffff
+}
+.main-container {
+  flex-grow:1;
+}
+.footer-social-list {
+  width: 116px;
+}
+.footer-contacts-logo {
+  width: 115px;
+}
+.contacts-phone {
+  width: 720px;
 }
 /* Breadcrumbs */
 .breadcrumbs {
@@ -210,7 +268,16 @@ input, select, button {
   color: #ffffff;
   text-transform: uppercase;
 }
+.catalog-products {
+display:flex;
+}
+.catalog-filter {
+  width:1059px;
 
+}
+.catalog-right-column {
+  width: 1059px;
+}
 
 /* Label */
 .control-label {
