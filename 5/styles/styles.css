@@ -145,7 +145,8 @@ margin: 0 auto;
 .navigation-list {
   width:390px;
   padding: 0;
-  margin: 0 ;
+  margin-right: 0 30px ;
+  list-style-type: none;
 
 }
 .navigation-user {
@@ -163,7 +164,7 @@ margin: 0 auto;
 }
 .navigation-logo {
   width:140px;
-  margin:70 30;
+  margin: auto;
 }
 .intro {
   color: #000000;
@@ -182,12 +183,14 @@ margin: 0 auto;
 }
 .advantages-list {
   display:flex;
+  outline:2px dashed rgba(216, 184, 184, 0.8);
+  outline-offset: -2px;
   justify-content: space-between;
   margin: 0;
   padding:0;
 }
 .advantages-item {
-  width: 600px;
+  width: 400px;
 }
 .advantages-title {
   font-family: "PT Sans", sans-serif;
@@ -195,7 +198,15 @@ margin: 0 auto;
   line-height: 21px;
   text-transform: uppercase;
 }
-
+.advantages-item-town {
+  width: 1200px;
+}
+.advantages-item-bridge {
+  width: 1200px;
+}
+.advantages-item-subreason {
+  width: 400px;
+}
 
 .subscribe {
   color: #ffffff;
@@ -218,7 +229,12 @@ margin: 0 auto;
   line-height: 29px;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
   color: #000000;
+}
+.footer-contacts-logo {
+  margin-right: 70px;
 }
 .page-footer-container {
   display:flex;
