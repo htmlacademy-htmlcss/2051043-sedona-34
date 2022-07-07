@@ -182,7 +182,9 @@ margin: 0 auto;
   margin: 0 auto;
 }
 .advantages-list {
-  display:flex;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row :1 / 4;
   outline:2px dashed rgba(216, 184, 184, 0.8);
   outline-offset: -2px;
   justify-content: space-between;
@@ -199,13 +201,14 @@ margin: 0 auto;
   text-transform: uppercase;
 }
 .advantages-item-town {
-  width: 1200px;
+  grid-column: 1 / 4;
 }
 .advantages-item-bridge {
-  width: 1200px;
+  grid-column: 1 / 4;
 }
 .advantages-item-subreason {
   width: 400px;
+  grid-column: 1 / 4;
 }
 
 .subscribe {
