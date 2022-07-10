@@ -23,17 +23,24 @@ html {
 
 
 body {
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   display:flex;
   flex-direction:column;
+  min-height: 100%;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
   background-color: #ffffff;
 }
 .container {
+  flex-grow: 1;
   margin: 0 auto;
   width:1200px;
+  height:100vh;
+  outline:2px dashed rgba(233, 21, 21, 0.8);
+  outline-offset: -2px;
+
 }
 input, select, button {
   font-family: inherit;
@@ -166,6 +173,12 @@ margin: 0 auto;
   background-color: #ffffff;
   text-decoration: none;
 }
+.main-container {
+  min-height: 30vh;
+  flex-grow: 1;
+  outline:2px dashed rgba(233, 21, 21, 0.8);
+  outline-offset: -2px;
+}
 .navigation-logo {
   width:140px;
   margin: auto;
@@ -260,16 +273,20 @@ margin: 0 auto;
   color:#ffffff
 }
 .main-container {
-  flex-grow:1;
+  flex-grow: 1 ;
+  
+  min-height: 100%;
 }
 .footer-social-list {
   width: 116px;
+  
 }
 .footer-contacts-logo {
   width: 115px;
 }
 .contacts-phone {
   width: 720px;
+  
 }
 /* Breadcrumbs */
 .breadcrumbs {
