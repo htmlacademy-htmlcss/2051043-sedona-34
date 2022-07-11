@@ -33,6 +33,16 @@ body {
   color: #333333;
   background-color: #ffffff;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .container {
   flex-grow: 1;
   margin: 0 auto;
@@ -154,6 +164,8 @@ width: 1200px;
 margin: 0 auto;
 }
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
   width:390px;
   padding: 0;
   margin-right: 0 30px ;
@@ -165,6 +177,8 @@ margin: 0 auto;
   margin-left:auto;
 }
 .navigation-link {
+  display: block;
+  padding: 20px 17px;
   font-family: "PT Sans", sans-serif;
   line-height: 26px;
   font-weight: 700;
@@ -173,11 +187,16 @@ margin: 0 auto;
   background-color: #ffffff;
   text-decoration: none;
 }
+.navigation-user .navigation-link {
+  min-width: 18px;
+  min-height: 18px;
+}
 .main-container {
   min-height: 30vh;
   flex-grow: 1;
   outline:2px dashed rgba(233, 21, 21, 0.8);
   outline-offset: -2px;
+  padding-top: 35px; 
 }
 .navigation-logo {
   width:140px;
@@ -196,6 +215,7 @@ margin: 0 auto;
 .logo {
   display:block;
   margin: 0 auto;
+  margin-bottom: 82px;;
 }
 .advantages-list {
   display:grid;
@@ -217,6 +237,9 @@ margin: 0 auto;
   line-height: 21px;
   text-transform: uppercase;
 }
+.advantages-description {
+  margin: 0;
+} 
 .advantages-item-town {
   grid-column: 1 / -1;
 }
@@ -260,6 +283,8 @@ margin: 0 auto;
 .page-footer-container {
   display:flex;
   margin:0 auto;
+  margin-top: 0;
+  margin-bottom: 14px;
 }
 
 .inner-header-title {
@@ -278,9 +303,23 @@ margin: 0 auto;
   min-height: 100%;
 }
 .footer-social-list {
+  display: flex;
+  flex-wrap: wrap; 
   width: 116px;
-  
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
+.footer-social-item {
+  width: 56px;
+  height: 44px;
+  margin-right: 8px; 
+  margin-bottom: 8px;
+}
+.footer-social-item:nth-child(3n) {
+  margin-right: 0;
+}
+
 .footer-contacts-logo {
   width: 115px;
 }
