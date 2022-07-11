@@ -52,7 +52,7 @@
 
   </header>
 
-  <main class="main-inne main-container">
+  <main class="main-inner main-container">
     <div class="page-container">
     <div class="main-title">
       <h1 class="main-title">Гостиницы Седоны</h1>
@@ -141,7 +141,7 @@
 
 
     <section class="catalog-products">
-      <h2 class="visually-hidden">Найдено гостиниц:38</h2>
+      <h2 >Найдено гостиниц:38</h2>
       <select class="select-control" aria-label="Сортировка">
         <option value="popular">Сначала популярные</option>
         <option value="cheap">Сначала дешёвые</option>
@@ -238,6 +238,7 @@
       </section>
 
 
+      <div class="pagination-container">
       <ul class="pagination">
         <li class="pagination-item">
           <a class="pagination-link pagination-current">1</a>
@@ -259,13 +260,14 @@
         </li>
       </ul>
       <label for="hotels">Гостиниц на странице</label>
-      <select class="select-control" id="hotels">
+      <select class="pagination-show-more" id="hotels">
         <option value="4">4</option>
         <option value="10">10</option>
         <option value="20">20</option>
         <option value="50">50</option>
       </select>
-      </div>
+    </div>
+    </div>
     </section>
     </div>
   </main>
