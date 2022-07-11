@@ -298,10 +298,7 @@ margin: 0 auto;
   background-image: url("../images/filter.jpg");
   color:#ffffff
 }
-.main-container {
-  flex-grow: 1 ;
-  flex-direction: row;
-}
+
 .catalog-products {
   padding-top:60px;
 }
